@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(to top right, rgb(51, 204, 255), rgb(204, 102, 255));
+    font-family: 'Helios Antique', sans-serif;
+    font-size: small;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 350px;
+}
+
+.card .logo {
+    font-family: 'Patinio Basica', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card input {
+    font-size: 14px;
+    height: 37px;
+    box-shadow: none !important;
+}
+
+.card input:focus::placeholder {
+    color: transparent;
+}
+
+.card input::placeholder {
+    font-size: 13px;
+}
+
+.card button {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    left: 50%;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: none !important;
+    background-image: linear-gradient(to right, rgb(51, 204, 255), rgb(204, 102, 255));
+}
+
+.card a {
+    margin-left: 90px;
+    color: rgb(78, 78, 78);
+}
+
+.card a:hover {
+    color: rgb(78, 78, 78, );
+    text-decoration-line: none;
+}
